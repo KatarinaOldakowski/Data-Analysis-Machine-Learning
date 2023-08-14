@@ -11,6 +11,10 @@ I visualize the relationships between categorical variables and the target varia
 Gender pie chart represents the distribution of genders where we can noticed female are more likely to get stroke. 
 Smoking Status pie chart represents the distribution of smoking statuses. 37% of instances never smoked.
 
-Preparing the Data for Prediction
+Preparing the Data for Prediction.
 Converting the Categorical Columns into Numerical by Mapping each category to an integer value using map() on pandas series object
-Checking if data is balanced, unfortunatelly data is imbalanced  which will result in a bad model. To resolve this issue I use SMOTE to balance it.
+Checking if data is balanced, unfortunatelly data is imbalanced  which will result in a bad model. To resolve this issue I use 
+SMOTE to balance it, then spliting the Data in Training and Testing Samples. I decided to create a model for stroke prediction
+using Random Forest Classifier because is effective in handling complex datasets and provide accurate predictions. Random forest is 
+also less prone to overfitting and can handle imbalanced data more effectively by giving equal importance to both classes during tree
+construction.
