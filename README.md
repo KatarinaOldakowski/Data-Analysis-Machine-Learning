@@ -40,13 +40,14 @@ project contains the following:
 
 ## Storytelling With Data
 
-** Problem:**
+- ** Problem:**
 Binary classification problem.
 Make prection on the target variable STROKE
 
-** Attribute Information:**
+- ** Attribute Information:**
 Categorical variables: gender, ever_married	work_type,	Residence_type, smoking_status
 Numerical variables: hypertension,	heart_disease, avg_glucose_level,	bmi, stroke
+
 
 After reading a CSV file into a DataFrame, I searched for missing values by plotting graph. As the 'BMI' column had the most missing values,
 I decided to use the "mean imputation" method. 'Age' column contain float numbers, using the round() function I rounded off the values to become an int64 Dtype. 
