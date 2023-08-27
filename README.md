@@ -12,12 +12,14 @@ As a beginner in this field, I'm eagerly learning and striving to cultivate my s
 - [Data Preprocessing]
 - [Modeling]
 
+
 ## Introduction
 
 Did you know... 80% Heart strokes are preventable?
 According to the World Health Organization (WHO) stroke is the 2nd leading cause of death globally, responsible for approximately 11% of total deaths. 
 This dataset is used to predict whether a patient is likely to get stroke based on the input parameters like gender, age, various diseases, and smoking status. 
 Each row in the data provides relavant information about the patient.
+
 
 ## Projects
 
@@ -64,7 +66,7 @@ I also removed record from the 'Sex' column for other gender as I strongly belie
 -Gender distribution via pie chart
 
 
-It's noticeable that females are more likely to experience strokes with ratio of 58,6% compared to males 41.4%
+It's noticeable that females are more likely to experience strokes with ratio of 58,6% compared to males 41.4%.
 
 
 -Smoking status distribution via pie chart
@@ -76,9 +78,13 @@ When it comes to stroke & smoking_status, people that have never smoked 37% are 
 -Stroke distribution via pie chart
 
 
-This is a highly unbalanced data distribution, indicates that every 5 people out of 100 are having strokes, before using any modeling this should be solve as most of the machine learning algorithm do not work well with the imbalanced data
+This is a highly unbalanced data distribution, indicates that every 5 people out of 100 are having strokes, before using any modeling this should be solve as most of the machine learning algorithm do not work well with the imbalanced data.
 
 
+-Heart_disease & Hypertension distribution via barplot
+
+
+Hypertension and heart disease features are correlated to stroke.
 
 
 ## Data Preprocessing
@@ -88,6 +94,7 @@ This is a highly unbalanced data distribution, indicates that every 5 people out
 Converting the Categorical Columns into Numerical by Mapping each category to an integer value using map() on pandas series object
 Checking if data is balanced, as mentioned earlier  data is imbalanced  which will result in a bad model. To resolve this issue I use 
 SMOTE to balance it, then spliting the Data in Training and Testing Samples. 
+
 
 ## Modeling
 
