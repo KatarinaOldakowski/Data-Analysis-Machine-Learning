@@ -47,6 +47,8 @@ Make prection on the target variable STROKE
 - **Attribute Information:**
 
   Categorical variables: gender, ever_married	work_type,	Residence_type, smoking_status
+
+  
   Numerical variables: hypertension,	heart_disease, avg_glucose_level,	bmi, stroke
 
 
