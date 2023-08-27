@@ -1,9 +1,42 @@
-# Data-Analysis-Machine-Learning
+# Data Analysis Machine Learning Repository
 
+Welcome to the Data Analysis Machine Learning Repository 🧠. This repository contain a one dataset project that I've worked on. 
+
+## Table of Contents
+- [Introduction]
+- [Projects]
+- [Resources]
+- [Storytelling With Data]
+
+## Introduction
+
+Did you know... 80% Heart strokes are preventable?
 "Stroke_prediction" is a dataset used to predict if patient is likely to get stroke based on the informations like
-gender, age, various diseases, smoking status and bmi.
+gender, age, various diseases, smoking status, bmi etc.
 
-Preprocessing the Data.
+## Projects
+
+Here are list of the data analysis machine learning projects included in this repository:
+- Stroke_prediction
+
+
+project contains the following:
+
+- **Notebooks:** Jupyter notebooks with the code used for DAML
+- **Results:** Visualizations, charts, and any other outputs generated from the analysis.
+
+
+## Resources
+
+
+- **Languages:** Python 🐍
+- **Libraries:** Pandas🐼, Numpy🧮, Matplotlib📊, Seaborn🌈, Scikit-learn🤖, Imbalanced-learn ⚖️ etc.
+- **Machine Learning Model:** Random Forest Classifier 🌳🌲
+- **Tools:** Jupyter Notebook 📓 
+
+
+## Storytelling With Data
+
 After reading CSV file into Pandas DataFrame, I searched for missing values by plotting graph,
 as BMI column has the most missing values  I using mean imputation method. 
 Using round() I round off Age to become int64 Dtype, I have removed record of other in column Sex.
