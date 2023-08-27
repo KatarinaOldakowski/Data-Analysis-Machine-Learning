@@ -84,7 +84,7 @@ This is a highly unbalanced data distribution, indicates that every 5 people out
 -Heart_disease & Hypertension distribution via barplot
 
 
-Hypertension and heart disease features are correlated to stroke.
+Hypertension and heart disease features are slightly correlated to stroke.
 
 
 ## Data Preprocessing
