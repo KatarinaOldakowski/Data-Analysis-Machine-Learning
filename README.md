@@ -1,6 +1,8 @@
 # Data Analysis Machine Learning Repository
 
-Welcome to the Data Analysis Machine Learning Repository 🧠. This repository contain a one dataset project that I've worked on. 
+Welcome to the Data Analysis Machine Learning Repository 🧠.This is my inaugural machine learning project, showcasing my journey into the world of data and algorithms.
+As a beginner in this field, I'm eagerly learning and striving to cultivate my skills further, with the aspiration to contribute meaningfully to the realm of machine learning.
+
 
 ## Table of Contents
 - [Introduction]
@@ -11,14 +13,15 @@ Welcome to the Data Analysis Machine Learning Repository 🧠. This repository c
 ## Introduction
 
 Did you know... 80% Heart strokes are preventable?
-"Stroke_prediction" is a dataset used to predict if patient is likely to get stroke based on the informations like
-gender, age, various diseases, smoking status, bmi etc.
+According to the World Health Organization (WHO) stroke is the 2nd leading cause of death globally, responsible for approximately 11% of total deaths. 
+This dataset is used to predict whether a patient is likely to get stroke based on the input parameters like gender, age, various diseases, and smoking status. 
+Each row in the data provides relavant information about the patient.
 
 ## Projects
 
 Here are list of the data analysis machine learning projects included in this repository:
-- Stroke_prediction
 
+- Stroke_prediction
 
 project contains the following:
 
@@ -37,12 +40,19 @@ project contains the following:
 
 ## Storytelling With Data
 
-After reading CSV file into Pandas DataFrame, I searched for missing values by plotting graph,
-as BMI column has the most missing values  I using mean imputation method. 
-Using round() I round off Age to become int64 Dtype, I have removed record of other in column Sex.
-I visualize the relationships between categorical variables and the target variable. 
-Gender pie chart represents the distribution of genders where we can noticed female are more likely to get stroke. 
-Smoking Status pie chart represents the distribution of smoking statuses. 37% of instances never smoked.
+** Problem:**
+Binary classification problem.
+Make prection on the target variable STROKE
+
+** Attribute Information:**
+Categorical variables: gender, ever_married	work_type,	Residence_type, smoking_status
+Numerical variables: hypertension,	heart_disease, avg_glucose_level,	bmi, stroke
+
+After reading a CSV file into a DataFrame, I searched for missing values by plotting graph. As the 'BMI' column had the most missing values,
+I decided to use the "mean imputation" method. 'Age' column contain float numbers, using the round() function I rounded off the values to become an int64 Dtype. 
+I also removed record from the 'Sex' column for other gender as I strongly believe one position wont effect predictions.
+The gender pie chart represents the distribution of genders, where it's noticeable that females are more likely to experience strokes. The smoking status pie chart illustrates the distribution of smoking statuses, with 37% of instances labeled as 'never smoked'.
+
 
 Preparing the Data for Prediction.
 Converting the Categorical Columns into Numerical by Mapping each category to an integer value using map() on pandas series object
