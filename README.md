@@ -8,7 +8,7 @@ As a beginner in this field, I'm eagerly learning and striving to cultivate my s
 - [Introduction]
 - [Projects]
 - [Resources]
-- [Storytelling With Data]
+- [Exploratory Data Analysis]
 
 ## Introduction
 
@@ -38,7 +38,7 @@ project contains the following:
 - **Tools:** Jupyter Notebook 📓 
 
 
-## Storytelling With Data
+## Exploratory Data Analysis
 
 - **Problem:**
 Binary classification problem.
@@ -52,10 +52,23 @@ Make prection on the target variable STROKE
   Numerical variables: hypertension,	heart_disease, avg_glucose_level,	bmi, stroke
 
 
+
 After reading a CSV file into a DataFrame, I searched for missing values by plotting graph. As the 'BMI' column had the most missing values,
 I decided to use the "mean imputation" method. 'Age' column contain float numbers, using the round() function I rounded off the values to become an int64 Dtype. 
 I also removed record from the 'Sex' column for other gender as I strongly believe one position wont effect predictions.
-The gender pie chart represents the distribution of genders, where it's noticeable that females are more likely to experience strokes. The smoking status pie chart illustrates the distribution of smoking statuses, with 37% of instances labeled as 'never smoked'.
+
+- **Data Visualization:**
+
+-Gender distribution via pie chart
+It's noticeable that females are more likely to experience strokes with ratio of 58,6% compared to males 41.4%
+
+
+-Smoking status distribution via pie chart
+When it comes to stroke & smoking_status, people that have never smoked 37% are most susceptible. Surprisingly, people that smokes 15.4% have the lowest chances of suffering from stroke. 30.2% hasnt given answer on this question.
+
+
+-Stroke distribution via pie chart
+This is a highly unbalanced data distribution, indicates that every 5 people out of 100 are having strokes, before using any modeling this should be solve as most of the machine learning algorithm do not work well with the imbalanced data
 
 
 Preparing the Data for Prediction.
