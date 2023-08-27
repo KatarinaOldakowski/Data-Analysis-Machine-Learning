@@ -9,6 +9,7 @@ As a beginner in this field, I'm eagerly learning and striving to cultivate my s
 - [Projects]
 - [Resources]
 - [Exploratory Data Analysis]
+- [Data Preprocessing]
 
 ## Introduction
 
@@ -60,20 +61,29 @@ I also removed record from the 'Sex' column for other gender as I strongly belie
 - **Data Visualization:**
 
 -Gender distribution via pie chart
+
+
 It's noticeable that females are more likely to experience strokes with ratio of 58,6% compared to males 41.4%
 
 
 -Smoking status distribution via pie chart
+
+
 When it comes to stroke & smoking_status, people that have never smoked 37% are most susceptible. Surprisingly, people that smokes 15.4% have the lowest chances of suffering from stroke. 30.2% hasnt given answer on this question.
 
 
 -Stroke distribution via pie chart
+
+
 This is a highly unbalanced data distribution, indicates that every 5 people out of 100 are having strokes, before using any modeling this should be solve as most of the machine learning algorithm do not work well with the imbalanced data
 
 
-Preparing the Data for Prediction.
+
+## Data Preprocessing
+
+
 Converting the Categorical Columns into Numerical by Mapping each category to an integer value using map() on pandas series object
-Checking if data is balanced, unfortunatelly data is imbalanced  which will result in a bad model. To resolve this issue I use 
+Checking if data is balanced, as mentioned earlier  data is imbalanced  which will result in a bad model. To resolve this issue I use 
 SMOTE to balance it, then spliting the Data in Training and Testing Samples. I decided to create a model for stroke prediction
 using Random Forest Classifier because is effective in handling complex datasets and provide accurate predictions. Random forest is 
 also less prone to overfitting and can handle imbalanced data more effectively by giving equal importance to both classes during tree
