@@ -1,6 +1,8 @@
 # Data Analysis Machine Learning Repository
 
-Welcome to the Data Analysis Machine Learning Repository 🧠This is my inaugural machine learning project, showcasing my journey into the world of data and algorithms.
+Welcome to the Data Analysis Machine Learning Repository 🧠
+
+This is my inaugural machine learning project, showcasing my journey into the world of data and algorithms.
 As a beginner in this field, I'm eagerly learning and striving to cultivate my skills further, with the aspiration to contribute meaningfully to the realm of machine learning.
 
 
