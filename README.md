@@ -10,6 +10,7 @@ As a beginner in this field, I'm eagerly learning and striving to cultivate my s
 - [Resources]
 - [Exploratory Data Analysis]
 - [Data Preprocessing]
+- [Modeling]
 
 ## Introduction
 
@@ -86,7 +87,11 @@ This is a highly unbalanced data distribution, indicates that every 5 people out
 
 Converting the Categorical Columns into Numerical by Mapping each category to an integer value using map() on pandas series object
 Checking if data is balanced, as mentioned earlier  data is imbalanced  which will result in a bad model. To resolve this issue I use 
-SMOTE to balance it, then spliting the Data in Training and Testing Samples. I decided to create a model for stroke prediction
-using Random Forest Classifier because is effective in handling complex datasets and provide accurate predictions. Random forest is 
-also less prone to overfitting and can handle imbalanced data more effectively by giving equal importance to both classes during tree
-construction.
+SMOTE to balance it, then spliting the Data in Training and Testing Samples. 
+
+## Modeling
+
+I decided to create a model for stroke prediction using Random Forest Classifier because is effective in handling complex datasets and provide accurate predictions. 
+Random forest is also less prone to overfitting and can handle imbalanced data more effectively by giving equal importance to both classes during tree construction.
+
+
