@@ -44,9 +44,9 @@ project contains the following:
 Binary classification problem.
 Make prection on the target variable STROKE
 
-- **Attribute Information:**
-- Categorical variables: gender, ever_married	work_type,	Residence_type, smoking_status
-- Numerical variables: hypertension,	heart_disease, avg_glucose_level,	bmi, stroke
+- **Attribute Information:** \n
+Categorical variables: gender, ever_married	work_type,	Residence_type, smoking_status \n
+Numerical variables: hypertension,	heart_disease, avg_glucose_level,	bmi, stroke
 
 
 After reading a CSV file into a DataFrame, I searched for missing values by plotting graph. As the 'BMI' column had the most missing values,
